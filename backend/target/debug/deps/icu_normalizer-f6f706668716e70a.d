@@ -1,0 +1,8 @@
+/Users/ashwaniyadav8804gmail.com/Desktop/Ashwani/code/Rrrr/rust-server-monitor/backend/target/debug/deps/icu_normalizer-f6f706668716e70a.d: /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.4.0/src/lib.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.4.0/src/properties.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.4.0/src/provider.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.4.0/src/uts46.rs
+
+/Users/ashwaniyadav8804gmail.com/Desktop/Ashwani/code/Rrrr/rust-server-monitor/backend/target/debug/deps/libicu_normalizer-f6f706668716e70a.rmeta: /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.4.0/src/lib.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.4.0/src/properties.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.4.0/src/provider.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.4.0/src/uts46.rs
+
+/Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.4.0/src/lib.rs:
+/Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.4.0/src/properties.rs:
+/Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.4.0/src/provider.rs:
+/Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.4.0/src/uts46.rs:

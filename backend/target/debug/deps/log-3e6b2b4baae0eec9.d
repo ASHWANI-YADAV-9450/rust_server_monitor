@@ -1,0 +1,8 @@
+/Users/ashwaniyadav8804gmail.com/Desktop/Ashwani/code/Rrrr/rust-server-monitor/backend/target/debug/deps/log-3e6b2b4baae0eec9.d: /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.35/src/lib.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.35/src/macros.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.35/src/serde.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.35/src/__private_api.rs
+
+/Users/ashwaniyadav8804gmail.com/Desktop/Ashwani/code/Rrrr/rust-server-monitor/backend/target/debug/deps/liblog-3e6b2b4baae0eec9.rmeta: /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.35/src/lib.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.35/src/macros.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.35/src/serde.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.35/src/__private_api.rs
+
+/Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.35/src/lib.rs:
+/Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.35/src/macros.rs:
+/Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.35/src/serde.rs:
+/Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.35/src/__private_api.rs:

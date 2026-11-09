@@ -1,0 +1,407 @@
+#root {
+  min-height: 100vh;
+}
+
+.dashboard {
+  min-height: 100vh;
+  background: #0b1120;
+  color: #e5e7eb;
+}
+
+/* Header */
+
+.topbar {
+  height: 76px;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #1e293b;
+  background: #111827;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-icon {
+  display: flex;
+  padding: 10px;
+  color: #60a5fa;
+  background: #1e3a5f;
+  border-radius: 10px;
+}
+
+.brand h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.brand p {
+  color: #94a3b8;
+  font-size: 12px;
+  margin: 4px 0 0;
+}
+
+.server-status {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 13px;
+  color: #cbd5e1;
+}
+
+.status-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #22c55e;
+}
+
+/* Main content */
+
+.main-content {
+  max-width: 1400px;
+  margin: auto;
+  padding: 35px 5%;
+}
+
+.page-heading,
+.section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.page-heading h2,
+.section-heading h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.page-heading p,
+.section-heading p {
+  color: #94a3b8;
+  font-size: 14px;
+  margin: 7px 0 0;
+}
+
+.refresh-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  background: #1e293b;
+  color: #e2e8f0;
+  cursor: pointer;
+}
+
+/* Metric cards */
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 40px;
+}
+
+.metric-card {
+  padding: 22px;
+  background: #111827;
+  border: 1px solid #263449;
+  border-radius: 12px;
+}
+
+.metric-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.metric-value {
+  margin-top: 22px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.metric-value span {
+  color: #94a3b8;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.metric-status {
+  margin-top: 12px;
+  color: #22c55e;
+  font-size: 13px;
+}
+
+/* Historical charts */
+
+.charts-section {
+  margin-top: 30px;
+}
+
+.chart-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.chart-card {
+  padding: 22px;
+  background: #111827;
+  border: 1px solid #263449;
+  border-radius: 12px;
+  min-width: 0;
+}
+
+.chart-card h3 {
+  font-size: 16px;
+  margin: 0 0 20px;
+}
+
+/* System details */
+
+.system-details {
+  margin-top: 40px;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.details-card {
+  min-width: 0;
+  padding: 22px;
+  background: #111827;
+  border: 1px solid #263449;
+  border-radius: 12px;
+}
+
+.details-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 22px;
+  color: #60a5fa;
+}
+
+.details-title h3 {
+  margin: 0;
+  color: #e5e7eb;
+  font-size: 16px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 17px 0;
+  font-size: 13px;
+}
+
+.detail-row span {
+  color: #94a3b8;
+}
+
+.detail-row strong {
+  color: #e2e8f0;
+  text-align: right;
+}
+
+/* Progress bars */
+
+.progress-track {
+  width: 100%;
+  height: 8px;
+  margin-top: 22px;
+  overflow: hidden;
+  background: #263449;
+  border-radius: 10px;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.memory-fill {
+  background: #a855f7;
+}
+
+.disk-fill {
+  background: #f59e0b;
+}
+
+/* Network interface table */
+
+.network-details-card {
+  grid-column: 1 / -1;
+}
+
+.network-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.network-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 13px;
+}
+
+.network-table th {
+  padding: 12px;
+  color: #94a3b8;
+  border-bottom: 1px solid #334155;
+}
+
+.network-table td {
+  padding: 12px;
+  color: #e2e8f0;
+  border-bottom: 1px solid #263449;
+}
+
+/* Footer */
+
+.dashboard-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 45px;
+  padding: 20px;
+  border-top: 1px solid #1e293b;
+  color: #64748b;
+  font-size: 13px;
+}
+
+/* Responsive design */
+
+
+/* Responsive design */
+
+@media (max-width: 1000px) {
+  .metric-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 750px) {
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .network-details-card {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 650px) {
+  .chart-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .main-content {
+    padding: 25px 4%;
+  }
+
+  .topbar {
+    padding: 0 4%;
+  }
+
+  .server-status {
+    font-size: 11px;
+  }
+}
+
+/* Network interface controls */
+
+.interface-label {
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.network-controls {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 12px;
+}
+
+.network-filter-button {
+  padding: 7px 14px;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  background: #1e293b;
+  color: #e2e8f0;
+  cursor: pointer;
+}
+
+.network-filter-button:hover {
+  background: #334155;
+}
+
+/* Performance history time-range selector */
+
+.time-range-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.time-range-selector button {
+  padding: 8px 18px;
+  border: 1px solid #263449;
+  border-radius: 7px;
+  background: #111c2e;
+  color: #94a3b8;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.time-range-selector button:hover {
+  background: #1e293b;
+  border-color: #3b82f6;
+  color: #ffffff;
+}
+
+.time-range-selector button.active {
+  background: #2563eb;
+  border-color: #3b82f6;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(37, 99, 235, 0.2);
+}
+
+/* Refresh animation */
+
+.spin {
+  animation: refresh-spin 1s linear infinite;
+}
+
+@keyframes refresh-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.refresh-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+

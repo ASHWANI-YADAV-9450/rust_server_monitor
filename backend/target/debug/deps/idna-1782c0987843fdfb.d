@@ -1,0 +1,8 @@
+/Users/ashwaniyadav8804gmail.com/Desktop/Ashwani/code/Rrrr/rust-server-monitor/backend/target/debug/deps/idna-1782c0987843fdfb.d: /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-1.1.0/src/lib.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-1.1.0/src/deprecated.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-1.1.0/src/punycode.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-1.1.0/src/uts46.rs
+
+/Users/ashwaniyadav8804gmail.com/Desktop/Ashwani/code/Rrrr/rust-server-monitor/backend/target/debug/deps/libidna-1782c0987843fdfb.rmeta: /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-1.1.0/src/lib.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-1.1.0/src/deprecated.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-1.1.0/src/punycode.rs /Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-1.1.0/src/uts46.rs
+
+/Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-1.1.0/src/lib.rs:
+/Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-1.1.0/src/deprecated.rs:
+/Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-1.1.0/src/punycode.rs:
+/Users/ashwaniyadav8804gmail.com/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-1.1.0/src/uts46.rs:

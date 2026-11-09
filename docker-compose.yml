@@ -1,0 +1,22 @@
+services:
+  greptime:
+    image: greptime/greptimedb:latest
+    container_name: rust-monitor-greptime
+    ports:
+      - "4000:4000"
+      - "4001:4001"
+      - "4002:4002"
+    command:
+      - standalone
+      - start
+      - --http-addr
+      - 0.0.0.0:4000
+      - --grpc-bind-addr
+      - 0.0.0.0:4001
+      - --mysql-addr
+      - 0.0.0.0:4002
+    volumes:
+      - greptime_data:/greptimedb_data
+
+volumes:
+  greptime_data:
